@@ -1,0 +1,14 @@
+.card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 30%;
+  height: 13vh;
+}
