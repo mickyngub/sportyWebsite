@@ -5,8 +5,10 @@ import SearchIcon from "@material-ui/icons/Search";
 const Header = () => {
   return (
     <div className="header">
-      <SearchIcon></SearchIcon>
-      <input></input>
+      <div className="sub-header">
+        <SearchIcon />
+        <input style={{ margin: 10 }}></input>
+      </div>
     </div>
   );
 };
