@@ -11,19 +11,21 @@ import tennisPic from "./../Assets/tennis.png";
 
 const Home = () => {
   return (
-    <div className="card_wrapper">
-      <Card className="card_component">
-        <img src={badmintonPic} alt="badminton"></img>
-      </Card>
-      <Card className="card_component">
-        <img src={tennisPic} alt="tennis"></img>
-      </Card>
-      <Card className="card_component">
-        <img src={golfPic} alt="basketball"></img>
-      </Card>
-      <Card className="card_component">
-        <img src={footballPic} alt="football"></img>
-      </Card>
+    <div className="body_wrapper">
+      <div className="card_wrapper">
+        <Card className="card_component">
+          <img src={badmintonPic} alt="badminton"></img>
+        </Card>
+        <Card className="card_component">
+          <img src={tennisPic} alt="tennis"></img>
+        </Card>
+        <Card className="card_component">
+          <img src={golfPic} alt="basketball"></img>
+        </Card>
+        <Card className="card_component">
+          <img src={footballPic} alt="football"></img>
+        </Card>
+      </div>
     </div>
   );
 };

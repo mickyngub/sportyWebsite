@@ -10,6 +10,8 @@ function App() {
       <Header></Header>
       <Home></Home>
       <Promotion />
+      <div style={{ backgroundColor: "#457b9d", height: "20vh" }}></div>
+      <div style={{ backgroundColor: "#1d3557", height: "20vh" }}></div>
     </div>
   );
 }
