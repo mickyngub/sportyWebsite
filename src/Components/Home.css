@@ -1,19 +1,31 @@
 .card_wrapper {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #f1faee;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fcd5ce;
 }
 
 .card_component {
   display: flex;
+  transition: transform 200ms ease-in !important;
+
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 70px;
   width: 34%;
   height: 20vh;
+  box-shadow: 5px 5px 5px 5px rgba(160, 95, 95, 0.3) !important;
+}
+.card_component:hover {
+  transform: scale(1.1);
 }
 
 .body_wrapper {
   margin: 0px;
+}
+
+.img_component {
+  height: 90%;
+  width: 300px;
+  object-fit: contain;
 }

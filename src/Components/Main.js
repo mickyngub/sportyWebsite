@@ -14,16 +14,20 @@ const Home = () => {
     <div className="body_wrapper">
       <div className="card_wrapper">
         <Card className="card_component">
-          <img src={badmintonPic} alt="badminton"></img>
+          <img
+            className="img_component"
+            src={badmintonPic}
+            alt="badminton"
+          ></img>
         </Card>
         <Card className="card_component">
-          <img src={tennisPic} alt="tennis"></img>
+          <img className="img_component" src={tennisPic} alt="tennis"></img>
         </Card>
         <Card className="card_component">
-          <img src={golfPic} alt="basketball"></img>
+          <img className="img_component" src={golfPic} alt="basketball"></img>
         </Card>
         <Card className="card_component">
-          <img src={footballPic} alt="football"></img>
+          <img className="img_component" src={footballPic} alt="football"></img>
         </Card>
       </div>
     </div>
