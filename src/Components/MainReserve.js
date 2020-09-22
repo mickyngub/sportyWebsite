@@ -1,0 +1,40 @@
+import React from "react";
+import Card from "@material-ui/core/Card";
+
+import "./Main.css";
+
+import golfPic from "./../Assets/golf.png";
+import badmintonPic from "./../Assets/badminton.png";
+import tennisPic from "./../Assets/tennis.png";
+
+import YoutubeSearchedForIcon from "@material-ui/icons/YoutubeSearchedFor";
+import MonetizationOnIcon from "@material-ui/icons/MonetizationOn";
+import EventAvailableIcon from "@material-ui/icons/EventAvailable";
+
+import { Link } from "react-router-dom";
+
+const MainReserve = () => {
+  return (
+    <div className="body_wrapper">
+      <div className="card_wrapper">
+        <Card className="card_component">
+          <Link to="/findcourt">
+            <YoutubeSearchedForIcon style={{ fontSize: "150" }} />
+          </Link>
+        </Card>
+        <Card className="card_component">
+          <Link to="/findcourt">
+            <MonetizationOnIcon style={{ fontSize: "150" }} />
+          </Link>
+        </Card>
+        <Card className="card_component">
+          <Link to="/findcourt">
+            <EventAvailableIcon style={{ fontSize: "150" }} />
+          </Link>
+        </Card>
+      </div>
+    </div>
+  );
+};
+
+export default MainReserve;

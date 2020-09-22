@@ -13,7 +13,8 @@
 
 .logo {
   left: 0px;
-  height: 100%;
+  max-width: 100%;
+  max-height: 9.9vh;
   margin-right: 10px;
   cursor: pointer;
 }
