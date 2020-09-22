@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "@material-ui/core/Card";
 
+import SearchBar from "../Components/SearchBar";
+
 import "./Main.css";
 
 import golfPic from "./../Assets/golf.png";
@@ -16,6 +18,8 @@ import { Link } from "react-router-dom";
 const MainReserve = () => {
   return (
     <div className="body_wrapper">
+      <SearchBar />
+
       <div className="card_wrapper">
         <Card className="card_component">
           <Link to="/findcourt">
