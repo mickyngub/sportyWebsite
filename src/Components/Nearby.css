@@ -1,4 +1,6 @@
 .body_nearby {
   background-color: #f9dcc4;
   height: 20vh;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(231, 98, 98, 0.3);
 }

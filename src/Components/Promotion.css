@@ -1,6 +1,7 @@
 .promotion_wrapper {
-  margin-top: 0px;
   background-color: #f8edeb;
+  box-shadow: 5px 5px 5px 5px rgba(160, 95, 95, 0.3);
+  margin-bottom: 5px;
 }
 
 .promotion_card_wrapper {

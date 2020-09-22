@@ -8,6 +8,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  box-shadow: 5px 5px 5px 5px rgba(160, 95, 95, 0.3);
 }
 
 .logo {
