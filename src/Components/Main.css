@@ -20,10 +20,6 @@
   transform: scale(1.1);
 }
 
-.search_wrapper {
-  padding: 5vh 3vw 0vh 3vw;
-  display: flex;
-}
 .body_wrapper {
   margin-bottom: 5px;
   background-color: #fcd5ce;
