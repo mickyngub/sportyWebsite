@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #fcd5ce;
 }
 
 .card_component {
@@ -20,8 +19,13 @@
   transform: scale(1.1);
 }
 
+.search_wrapper {
+  padding: 5vh 3vw 0vh 3vw;
+  display: flex;
+}
 .body_wrapper {
   margin: 0px;
+  background-color: #fcd5ce;
 }
 
 .img_component {
