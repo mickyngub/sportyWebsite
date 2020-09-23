@@ -9,11 +9,15 @@ const HomePage = () => {
     <div>
       <Header />
 
-      <div className="body"></div>
+      <div className="body">
       <MainSport />
       <Promotion />
-      {/* <Nearby /> */}
       <Footer />
+      </div>
+      {/* <MainSport /> */}
+      
+      {/* <Nearby /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

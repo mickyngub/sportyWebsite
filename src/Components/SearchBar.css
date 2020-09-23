@@ -2,3 +2,11 @@
   padding: 5vh 3vw 0vh 3vw;
   display: flex;
 }
+.inputField {
+  background-color: gray;
+  border: none;
+  border-radius: 30px;
+  color:black;
+  border-style: none;
+  outline-style: none;
+}

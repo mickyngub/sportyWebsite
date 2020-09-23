@@ -1,7 +1,18 @@
 .body_nearby {
-  background-color: #f9dcc4;
   margin-bottom: 5px;
-  box-shadow: 5px 5px 5px 5px rgba(231, 98, 98, 0.3);
+  border-top: 1px solid gray;
+}
+.nearby-start {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.nearby-logo {
+  width: 50px;
+  height: 50px;
 }
 
 .body_nearby_wrapper {
@@ -13,7 +24,7 @@
   width: 100%;
   height: 60vh;
   margin: 40px;
-  box-shadow: 5px 5px 5px 5px rgba(160, 95, 95, 0.3) !important;
+  box-shadow: 5px 5px 5px 5px black !important;
   transition: transform 200ms ease-in !important;
 }
 

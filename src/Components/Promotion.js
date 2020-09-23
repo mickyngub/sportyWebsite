@@ -7,6 +7,7 @@ import "./Promotion.css";
 const Promotion = () => {
   return (
     <div className="promotion_wrapper">
+      <div className="promotion_wrapper-text">Promotion</div>
       <div className="promotion_card_wrapper">
         <Card className="promotion_card">
           <img className="pic" src={promotionPic1} alt="promotion1"></img>

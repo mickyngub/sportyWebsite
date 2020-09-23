@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "@material-ui/core/Card";
 
 import SearchBar from "../Components/SearchBar";
 
@@ -17,21 +16,24 @@ const MainReserve = () => {
       <SearchBar />
 
       <div className="card_wrapper">
-        <Card className="card_component">
-          <Link to="/findcourt">
-            <YoutubeSearchedForIcon style={{ fontSize: "150" }} />
+        <div className="card-wrapper-sub">
+          <Link to="/findcourt" style={{ textDecoration: 'none',color:'black' }}>
+            <YoutubeSearchedForIcon style={{ fontSize: "200",margin:'20px' }} />
+            <div className="card-wrapper-sub-text">จองคอร์ท/สนาม</div>
           </Link>
-        </Card>
-        <Card className="card_component">
-          <Link to="/findcourt">
-            <MonetizationOnIcon style={{ fontSize: "150" }} />
+        </div>
+        <div className="card-wrapper-sub">
+          <Link to="/findcourt" style={{ textDecoration: 'none',color:'black' }}>
+            <MonetizationOnIcon style={{ fontSize: "200",margin:'20px' }} />
+            <div className="card-wrapper-sub-text">ส่วนลดและแพคเกจ</div>
           </Link>
-        </Card>
-        <Card className="card_component">
-          <Link to="/findcourt">
-            <EventAvailableIcon style={{ fontSize: "150" }} />
+        </div>
+        <div className="card-wrapper-sub">
+          <Link to="/findcourt" style={{ textDecoration: 'none',color:'black' }}>
+          <EventAvailableIcon style={{fontSize: "200",margin:'20px'  }} />
+            <div className="card-wrapper-sub-text">จองอีกครั้ง</div>
           </Link>
-        </Card>
+        </div>
       </div>
     </div>
   );
