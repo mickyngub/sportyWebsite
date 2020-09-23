@@ -5,10 +5,6 @@ import SearchBar from "../Components/SearchBar";
 
 import "./Main.css";
 
-import golfPic from "./../Assets/golf.png";
-import badmintonPic from "./../Assets/badminton.png";
-import tennisPic from "./../Assets/tennis.png";
-
 import YoutubeSearchedForIcon from "@material-ui/icons/YoutubeSearchedFor";
 import MonetizationOnIcon from "@material-ui/icons/MonetizationOn";
 import EventAvailableIcon from "@material-ui/icons/EventAvailable";

@@ -4,16 +4,14 @@ import Card from "@material-ui/core/Card";
 import SearchBar from "./SearchBar";
 
 import "./Main.css";
-import golfPic from "./../Assets/golf.png";
-import footballPic from "./../Assets/ball.png";
-import badmintonPic from "./../Assets/badminton.png";
-import tennisPic from "./../Assets/tennis.png";
-// import footballPic from "./../Assets/ball.png";
-// import footballPic from "./../Assets/ball.png";
+import golfPic from "./../Assets/golf1.jpg";
+import footballPic from "./../Assets/football1.jpg";
+import badmintonPic from "./../Assets/badminton1.jpg";
+import tennisPic from "./../Assets/tennis1.jpg";
 
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const MainSport = () => {
   return (
     <div className="body_wrapper">
       <SearchBar />
@@ -51,4 +49,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MainSport;
