@@ -1,6 +1,7 @@
 .body {
   background-image: url(../Assets/background-all.png);
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -56,6 +57,11 @@
   color: black;
   border: none;
   position: relative;
+  font-size: 1rem;
+}
+input::placeholder {
+  color: black;
+  font-family: 'Prompt', sans-serif;
 }
 .content-line-button {
   height: 50px;
@@ -63,6 +69,7 @@
   background-color: #ECBE32;
   border-radius: 10px;
   padding: 0px 10px;
+  font-family: 'Prompt', sans-serif;
 }
 .content-line-2 {
   display: flex;
@@ -82,16 +89,68 @@
   font-size: 1.5rem;
   color: white;
 }
+.date {
+  display: flex;
+  margin-top: 20px;
+}
+.time {
+  display: flex;
+}
 .content-line-3 > * {
   width: 50%;
 }
 .content-line-3-time {
   display: flex;
 }
+.content-line-3-time > * {
+  margin: 20px;
+  margin-left: 0px;
+}
+.content-line-3-submit {
+  border: none;
+  border-radius: 20px;
+  background-color: #E5E5E5;
+  font-family: 'Prompt', sans-serif;
+}
 .content-line-4 {
+  display: flex;
+  text-align: left;
+  border-radius: 30px;
+  margin: 40px 0px 20px 60px;
+  font-size: 1.5rem;
+  color: white;
+}
+.content-line-4-numberOfCourt {
   display: flex;
   flex-direction: column;
 }
+.content-line-4-numberOfCourt > * {
+  margin-bottom: 15px;
+}
+
+.content-line-4 > *{
+  width: 50%;
+}
 .content-line-4-number {
-  width: 50px;
+  width: 20%;
+  border-radius: 20px;
+  border: none;
+  background-color: #E5E5E5;
+  height: 40px;
+}
+.content-line-4-submit {
+  width: 20%;
+  height: 60px;
+  border:none;
+  background-color: #ECBE32;
+  border-radius: 20px;
+  margin: 40px 0px 0px 40px;
+  font-size: 1.5rem;
+}
+.number_court {
+  display: flex;
+}
+.arrow-down {
+  fill: white;
+  align-self: center;
 }

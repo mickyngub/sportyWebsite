@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../Components/Header";
+import { Link } from "react-router-dom";
 
 import "./FindCourt.css";
 import SearchIcon from "@material-ui/icons/Search";
@@ -19,23 +20,52 @@ const FindCourt = () => {
             </div>
             <div className="content-line-2">ประเภทกีฬา : แบตมินตัน</div>
             <div className="content-line-3">
-              <div>
+              <div >
                 <div>วันที่</div>
-                <div>Fri 11 Sep</div>
+                <div className="date">
+                  <div>Fri 11 Sep</div>
+                  <svg className="arrow-down" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                  </svg>
+                </div>
               </div>
               <div>
                 <div>เวลา</div>
                 <div className="content-line-3-time">
-                  <div>18 : 00</div>
+                  <div className="time">
+                    <div>18 : 00</div>
+                    <svg className="arrow-down" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                          <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                          <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                  </div>
                   <div>ถึง</div>
-                  <div>20 : 00</div>
-                  <button>ไม่ระบุเวลา</button>
+                  <div className="time">
+                    <div>20 : 00</div>
+                    <svg className="arrow-down" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                          <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                          <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                  </div>
+                  <button className="content-line-3-submit">ไม่ระบุเวลา</button>
                 </div>
               </div>
             </div>
             <div className="content-line-4">
-                จำนวนคอร์ท
-                <input type="number" className="content-line-4-number"></input>
+                <div className="content-line-4-numberOfCourt">
+                  <div>จำนวนคอร์ท</div>
+                  <div className="number_court">
+                    <input type="number" className="content-line-4-number"></input>
+                    <svg className="arrow-down" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                  </div>
+                </div>
+                <Link to="/courtlist" style={{ textDecoration: 'none',color:'black' }}>
+                  <button className="content-line-4-submit">Submit</button>
+                </Link>
             </div>
             {/* <div className="content-line">
               <div>จำนวนคอร์ท</div>

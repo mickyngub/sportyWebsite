@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const MainReserve = () => {
   return (
     <div className="body_wrapper">
-      <SearchBar />
+      <SearchBar/>
 
       <div className="card_wrapper">
         <div className="card-wrapper-sub">

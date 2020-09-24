@@ -3,7 +3,7 @@ import TextField from "@material-ui/core/TextField";
 import SearchIcon from "@material-ui/icons/Search";
 
 import "./SearchBar.css";
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
     <div className="search_wrapper">
       <SearchIcon style={{ paddingTop: "15", paddingRight: "10" }} />
@@ -11,7 +11,7 @@ const SearchBar = () => {
         placeholder="ค้นหาจากที่ตั้ง/ชื่อสนาม"
         fullWidth
         className="inputField"
-        label="Search"
+        label={props.message}
         variant="outlined"
       ></TextField>
     </div>

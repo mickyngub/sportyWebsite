@@ -1,0 +1,106 @@
+.detail {
+    display: grid;
+    height:100%;
+    grid-template-rows: 5% 45% 10% 50% 20% 20%;
+    margin: 80px;
+    font-size: 1.5rem;
+}
+
+.detail-more-pic {
+    text-align: right;
+    color: #BA4D3C;
+    font-weight: bold;
+}
+
+.detail-pic {
+    display: flex;
+    flex-direction: column;
+}
+.detail-pic-all {
+    display: flex;
+    justify-content: space-between;
+}
+.detail-pic-rest {
+    color: red;
+    font-weight: bold;
+    text-align: end;
+}
+
+.detail-pic-each {
+    width: 30%;
+    height: 300px;
+}
+
+.detail-rating-location {
+}
+.detail-rating-location > * {
+    margin: 10px;
+}
+
+.rating {
+    display: flex;
+}
+
+.location {
+    display: flex;
+}
+.location-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.detail-facility {
+}
+.detail-facility-topic {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    width: 20%;
+    padding: 5px;
+    margin: 40px 0px;
+}
+.detail-facility-sub {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.detail-facility-sub-each {
+    width: 18%;
+    height: 200px;
+    background-color: #E5E5E5;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+.detail-more-info {
+    text-align: left;
+}
+.detail-more-info-text {
+    display: flex;
+}
+.detail-more-info-text > * {
+    margin: 10px;
+}
+
+.detail-price {
+    display: flex;
+    background-color: #8697CB;
+    height: 60px;
+    margin:40px 0px 30px 0px;
+    justify-content: space-between;
+}
+.detail-price-number {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.detail-price-button {
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color: #BA4D3C;
+    height: 60%;
+    width: 150px;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
