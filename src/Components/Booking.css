@@ -1,0 +1,56 @@
+.booking {
+    width: 35%;
+    height: 75%;
+    background-color: #2C3C82;
+    border-radius: 100px;
+    color: white;
+    margin: 40px;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 10% 35% 10% 35% 15%;
+    font-size: 1.4rem;
+}
+.detail-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-price {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    align-items: center;
+    padding: 10px;
+}
+.booking-payment {
+    margin-top: 20px;
+}
+.booking-payment > * {
+    margin-bottom: 10px;
+}
+.sub-price {
+    background-color: white;
+    height: 150px;
+    border-radius: 30px;
+    border: none;
+    width: 30%;
+    color: black;
+    font-size: 1rem;
+}
+.booking-button {
+    margin: 20px 30px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.booking-button-sub {
+    margin:8px 10px 8px 0px;
+    border: none;
+    color: white;
+    background-color: #BA4D3C;
+    font-family: inherit;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}

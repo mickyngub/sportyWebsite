@@ -1,0 +1,13 @@
+.payment {
+    width: 35%;
+    height: 75%;
+    background-color: #2C3C82;
+    border-radius: 100px;
+    color: rgb(177, 137, 137);
+    margin: 40px;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    font-size: 1.4rem;
+    justify-items: center;
+}

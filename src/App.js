@@ -5,6 +5,8 @@ import FindCourt from "./Pages/FindCourt";
 import CourtList from "./Pages/CourtList";
 import CourtDetail from "./Pages/CourtDetail";
 import BookingDetail from "./Pages/BookingDetail";
+import BookingPromo from "./Pages/BookingPromo";
+import PaymentDetail from "./Pages/PaymentDetail";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
@@ -20,8 +22,9 @@ function App() {
           <Route path="/courtlist" exact component={CourtList} />
           <Route path="/courtdetail" exact component={CourtDetail} />
           <Route path="/bookingdetail" exact component={BookingDetail} />
+          <Route path="/bookingpromo" exact component={BookingPromo} />
+          <Route path="/paymentdetail" exact component={PaymentDetail}/>
           <Route path="/" render={() => <div>404 Bad Gateway</div>} />
-
         </Switch>
       </div>
     </BrowserRouter>

@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../Components/Header";
-import Booking from "../Components/Booking";
+import Payment from "../Components/Payment";
 import "./FindCourt.css";
 
-const BookingDetail = () => {
+const PaymentDetail = () => {
   return (
     <div>
       <Header />
 
       <div className="body">
           <div className="findCourt-bg">
-              <Booking/>
+              <Payment/>
           </div>
       </div>
       {/* <MainSport /> */}
@@ -21,4 +21,4 @@ const BookingDetail = () => {
   );
 };
 
-export default BookingDetail;
+export default PaymentDetail;

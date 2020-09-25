@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../Components/Header";
-import Booking from "../Components/Booking";
 import "./FindCourt.css";
+import Coupon from "../Components/Coupon";
 
-const BookingDetail = () => {
+const BookingPromo = () => {
   return (
     <div>
       <Header />
 
       <div className="body">
           <div className="findCourt-bg">
-              <Booking/>
+              <Coupon/>
           </div>
       </div>
       {/* <MainSport /> */}
@@ -21,4 +21,4 @@ const BookingDetail = () => {
   );
 };
 
-export default BookingDetail;
+export default BookingPromo;
